@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D017B3325A1109B006D4DF7 /* kopps_flavor_forcast_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D017B3225A1109B006D4DF7 /* kopps_flavor_forcast_iosApp.swift */; };
+		7D017B3525A1109B006D4DF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D017B3425A1109B006D4DF7 /* ContentView.swift */; };
+		7D017B3725A1109C006D4DF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D017B3625A1109C006D4DF7 /* Assets.xcassets */; };
+		7D017B3A25A1109C006D4DF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D017B3925A1109C006D4DF7 /* Preview Assets.xcassets */; };
+		7D017B4525A1109C006D4DF7 /* kopps_flavor_forcast_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D017B4425A1109C006D4DF7 /* kopps_flavor_forcast_iosTests.swift */; };
+		7D017B5025A1109C006D4DF7 /* kopps_flavor_forcast_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D017B4F25A1109C006D4DF7 /* kopps_flavor_forcast_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D017B4125A1109C006D4DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D017B2725A1109B006D4DF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D017B2E25A1109B006D4DF7;
+			remoteInfo = "kopps-flavor-forcast-ios";
+		};
+		7D017B4C25A1109C006D4DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D017B2725A1109B006D4DF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D017B2E25A1109B006D4DF7;
+			remoteInfo = "kopps-flavor-forcast-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D017B2F25A1109B006D4DF7 /* kopps-flavor-forcast-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kopps-flavor-forcast-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D017B3225A1109B006D4DF7 /* kopps_flavor_forcast_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kopps_flavor_forcast_iosApp.swift; sourceTree = "<group>"; };
+		7D017B3425A1109B006D4DF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7D017B3625A1109C006D4DF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D017B3925A1109C006D4DF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D017B3B25A1109C006D4DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D017B4025A1109C006D4DF7 /* kopps-flavor-forcast-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kopps-flavor-forcast-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D017B4425A1109C006D4DF7 /* kopps_flavor_forcast_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kopps_flavor_forcast_iosTests.swift; sourceTree = "<group>"; };
+		7D017B4625A1109C006D4DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D017B4B25A1109C006D4DF7 /* kopps-flavor-forcast-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kopps-flavor-forcast-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D017B4F25A1109C006D4DF7 /* kopps_flavor_forcast_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kopps_flavor_forcast_iosUITests.swift; sourceTree = "<group>"; };
+		7D017B5125A1109C006D4DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D017B2C25A1109B006D4DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D017B3D25A1109C006D4DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D017B4825A1109C006D4DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D017B2625A1109B006D4DF7 = {
+			isa = PBXGroup;
+			children = (
+				7D017B3125A1109B006D4DF7 /* kopps-flavor-forcast-ios */,
+				7D017B4325A1109C006D4DF7 /* kopps-flavor-forcast-iosTests */,
+				7D017B4E25A1109C006D4DF7 /* kopps-flavor-forcast-iosUITests */,
+				7D017B3025A1109B006D4DF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D017B3025A1109B006D4DF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D017B2F25A1109B006D4DF7 /* kopps-flavor-forcast-ios.app */,
+				7D017B4025A1109C006D4DF7 /* kopps-flavor-forcast-iosTests.xctest */,
+				7D017B4B25A1109C006D4DF7 /* kopps-flavor-forcast-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D017B3125A1109B006D4DF7 /* kopps-flavor-forcast-ios */ = {
+			isa = PBXGroup;
+			children = (
+				7D017B3225A1109B006D4DF7 /* kopps_flavor_forcast_iosApp.swift */,
+				7D017B3425A1109B006D4DF7 /* ContentView.swift */,
+				7D017B3625A1109C006D4DF7 /* Assets.xcassets */,
+				7D017B3B25A1109C006D4DF7 /* Info.plist */,
+				7D017B3825A1109C006D4DF7 /* Preview Content */,
+			);
+			path = "kopps-flavor-forcast-ios";
+			sourceTree = "<group>";
+		};
+		7D017B3825A1109C006D4DF7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7D017B3925A1109C006D4DF7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7D017B4325A1109C006D4DF7 /* kopps-flavor-forcast-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D017B4425A1109C006D4DF7 /* kopps_flavor_forcast_iosTests.swift */,
+				7D017B4625A1109C006D4DF7 /* Info.plist */,
+			);
+			path = "kopps-flavor-forcast-iosTests";
+			sourceTree = "<group>";
+		};
+		7D017B4E25A1109C006D4DF7 /* kopps-flavor-forcast-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D017B4F25A1109C006D4DF7 /* kopps_flavor_forcast_iosUITests.swift */,
+				7D017B5125A1109C006D4DF7 /* Info.plist */,
+			);
+			path = "kopps-flavor-forcast-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D017B2E25A1109B006D4DF7 /* kopps-flavor-forcast-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D017B5425A1109C006D4DF7 /* Build configuration list for PBXNativeTarget "kopps-flavor-forcast-ios" */;
+			buildPhases = (
+				7D017B2B25A1109B006D4DF7 /* Sources */,
+				7D017B2C25A1109B006D4DF7 /* Frameworks */,
+				7D017B2D25A1109B006D4DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kopps-flavor-forcast-ios";
+			productName = "kopps-flavor-forcast-ios";
+			productReference = 7D017B2F25A1109B006D4DF7 /* kopps-flavor-forcast-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D017B3F25A1109C006D4DF7 /* kopps-flavor-forcast-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D017B5725A1109C006D4DF7 /* Build configuration list for PBXNativeTarget "kopps-flavor-forcast-iosTests" */;
+			buildPhases = (
+				7D017B3C25A1109C006D4DF7 /* Sources */,
+				7D017B3D25A1109C006D4DF7 /* Frameworks */,
+				7D017B3E25A1109C006D4DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D017B4225A1109C006D4DF7 /* PBXTargetDependency */,
+			);
+			name = "kopps-flavor-forcast-iosTests";
+			productName = "kopps-flavor-forcast-iosTests";
+			productReference = 7D017B4025A1109C006D4DF7 /* kopps-flavor-forcast-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D017B4A25A1109C006D4DF7 /* kopps-flavor-forcast-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D017B5A25A1109C006D4DF7 /* Build configuration list for PBXNativeTarget "kopps-flavor-forcast-iosUITests" */;
+			buildPhases = (
+				7D017B4725A1109C006D4DF7 /* Sources */,
+				7D017B4825A1109C006D4DF7 /* Frameworks */,
+				7D017B4925A1109C006D4DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D017B4D25A1109C006D4DF7 /* PBXTargetDependency */,
+			);
+			name = "kopps-flavor-forcast-iosUITests";
+			productName = "kopps-flavor-forcast-iosUITests";
+			productReference = 7D017B4B25A1109C006D4DF7 /* kopps-flavor-forcast-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D017B2725A1109B006D4DF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					7D017B2E25A1109B006D4DF7 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					7D017B3F25A1109C006D4DF7 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 7D017B2E25A1109B006D4DF7;
+					};
+					7D017B4A25A1109C006D4DF7 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 7D017B2E25A1109B006D4DF7;
+					};
+				};
+			};
+			buildConfigurationList = 7D017B2A25A1109B006D4DF7 /* Build configuration list for PBXProject "kopps-flavor-forcast-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D017B2625A1109B006D4DF7;
+			productRefGroup = 7D017B3025A1109B006D4DF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D017B2E25A1109B006D4DF7 /* kopps-flavor-forcast-ios */,
+				7D017B3F25A1109C006D4DF7 /* kopps-flavor-forcast-iosTests */,
+				7D017B4A25A1109C006D4DF7 /* kopps-flavor-forcast-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D017B2D25A1109B006D4DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D017B3A25A1109C006D4DF7 /* Preview Assets.xcassets in Resources */,
+				7D017B3725A1109C006D4DF7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D017B3E25A1109C006D4DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D017B4925A1109C006D4DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D017B2B25A1109B006D4DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D017B3525A1109B006D4DF7 /* ContentView.swift in Sources */,
+				7D017B3325A1109B006D4DF7 /* kopps_flavor_forcast_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D017B3C25A1109C006D4DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D017B4525A1109C006D4DF7 /* kopps_flavor_forcast_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D017B4725A1109C006D4DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D017B5025A1109C006D4DF7 /* kopps_flavor_forcast_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D017B4225A1109C006D4DF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D017B2E25A1109B006D4DF7 /* kopps-flavor-forcast-ios */;
+			targetProxy = 7D017B4125A1109C006D4DF7 /* PBXContainerItemProxy */;
+		};
+		7D017B4D25A1109C006D4DF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D017B2E25A1109B006D4DF7 /* kopps-flavor-forcast-ios */;
+			targetProxy = 7D017B4C25A1109C006D4DF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7D017B5225A1109C006D4DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D017B5325A1109C006D4DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D017B5525A1109C006D4DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"kopps-flavor-forcast-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 8A9MX88W33;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "kopps-flavor-forcast-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tutkowski.kopps-flavor-forcast-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D017B5625A1109C006D4DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"kopps-flavor-forcast-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 8A9MX88W33;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "kopps-flavor-forcast-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tutkowski.kopps-flavor-forcast-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7D017B5825A1109C006D4DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8A9MX88W33;
+				INFOPLIST_FILE = "kopps-flavor-forcast-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tutkowski.kopps-flavor-forcast-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kopps-flavor-forcast-ios.app/kopps-flavor-forcast-ios";
+			};
+			name = Debug;
+		};
+		7D017B5925A1109C006D4DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8A9MX88W33;
+				INFOPLIST_FILE = "kopps-flavor-forcast-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tutkowski.kopps-flavor-forcast-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kopps-flavor-forcast-ios.app/kopps-flavor-forcast-ios";
+			};
+			name = Release;
+		};
+		7D017B5B25A1109C006D4DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8A9MX88W33;
+				INFOPLIST_FILE = "kopps-flavor-forcast-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tutkowski.kopps-flavor-forcast-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kopps-flavor-forcast-ios";
+			};
+			name = Debug;
+		};
+		7D017B5C25A1109C006D4DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8A9MX88W33;
+				INFOPLIST_FILE = "kopps-flavor-forcast-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tutkowski.kopps-flavor-forcast-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kopps-flavor-forcast-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D017B2A25A1109B006D4DF7 /* Build configuration list for PBXProject "kopps-flavor-forcast-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D017B5225A1109C006D4DF7 /* Debug */,
+				7D017B5325A1109C006D4DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D017B5425A1109C006D4DF7 /* Build configuration list for PBXNativeTarget "kopps-flavor-forcast-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D017B5525A1109C006D4DF7 /* Debug */,
+				7D017B5625A1109C006D4DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D017B5725A1109C006D4DF7 /* Build configuration list for PBXNativeTarget "kopps-flavor-forcast-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D017B5825A1109C006D4DF7 /* Debug */,
+				7D017B5925A1109C006D4DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D017B5A25A1109C006D4DF7 /* Build configuration list for PBXNativeTarget "kopps-flavor-forcast-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D017B5B25A1109C006D4DF7 /* Debug */,
+				7D017B5C25A1109C006D4DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D017B2725A1109B006D4DF7 /* Project object */;
+}
