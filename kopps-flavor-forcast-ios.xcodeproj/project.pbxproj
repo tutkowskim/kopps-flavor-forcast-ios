@@ -13,6 +13,8 @@
 		7D017B3A25A1109C006D4DF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D017B3925A1109C006D4DF7 /* Preview Assets.xcassets */; };
 		7D017B4525A1109C006D4DF7 /* kopps_flavor_forcast_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D017B4425A1109C006D4DF7 /* kopps_flavor_forcast_iosTests.swift */; };
 		7D017B5025A1109C006D4DF7 /* kopps_flavor_forcast_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D017B4F25A1109C006D4DF7 /* kopps_flavor_forcast_iosUITests.swift */; };
+		7D017B6125A1137B006D4DF7 /* FlavorForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D017B6025A1137B006D4DF7 /* FlavorForecast.swift */; };
+		7D017B6625A11ABD006D4DF7 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D017B6525A11ABD006D4DF7 /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		7D017B4B25A1109C006D4DF7 /* kopps-flavor-forcast-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kopps-flavor-forcast-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D017B4F25A1109C006D4DF7 /* kopps_flavor_forcast_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kopps_flavor_forcast_iosUITests.swift; sourceTree = "<group>"; };
 		7D017B5125A1109C006D4DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D017B6025A1137B006D4DF7 /* FlavorForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorForecast.swift; sourceTree = "<group>"; };
+		7D017B6525A11ABD006D4DF7 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				7D017B3625A1109C006D4DF7 /* Assets.xcassets */,
 				7D017B3B25A1109C006D4DF7 /* Info.plist */,
 				7D017B3825A1109C006D4DF7 /* Preview Content */,
+				7D017B6025A1137B006D4DF7 /* FlavorForecast.swift */,
+				7D017B6525A11ABD006D4DF7 /* RemoteImage.swift */,
 			);
 			path = "kopps-flavor-forcast-ios";
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				7D017B3525A1109B006D4DF7 /* ContentView.swift in Sources */,
 				7D017B3325A1109B006D4DF7 /* kopps_flavor_forcast_iosApp.swift in Sources */,
+				7D017B6125A1137B006D4DF7 /* FlavorForecast.swift in Sources */,
+				7D017B6625A11ABD006D4DF7 /* RemoteImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
